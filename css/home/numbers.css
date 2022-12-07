@@ -1,4 +1,5 @@
 .numbers {
+  background-color: #f6f6f6;
   display: flex;
   place-content: space-evenly;
   gap: 60px;
