@@ -1,0 +1,14 @@
+/* RESET */
+@import url('./reset.css');
+
+/* GLOBAL */
+@import url('./global/header.css');
+@import url('./global/footer.css');
+
+/*TIPOGRAFIA*/
+@import url('./fonts.css');
+
+/* HOME */
+@import url('./home/introducao.css');
+@import url('./home/solution.css');
+@import url('./home/numbers.css');

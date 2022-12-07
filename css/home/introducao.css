@@ -1,0 +1,121 @@
+.introducao-bg {
+  background-color: #3c0a09;
+  position: relative;
+}
+
+.introducao-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 120px;
+  position: relative;
+}
+
+.introducao-texto {
+  background-color: #741e1b;
+  color: #e4e4e4;
+  padding: 160px 60px;
+  border-radius: 8px 0px 0px 8px;
+  /* border: 2px solid #000000; */
+}
+
+.introducao-texto h1 {
+  color: #e4e4e4;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.introducao-texto-h2 {
+  margin-bottom: 30px;
+  word-wrap: break-word;
+  margin-right: 60px;
+}
+
+.introducao-texto p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  word-wrap: break-word;
+  margin-right: 90px;
+}
+
+.saiba-mais {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ms-logo {
+  max-height: 40vh;
+  max-height: 40vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.background-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: right center;
+  border-radius: 0px 8px 8px 0px;
+}
+
+@media (max-width: 1000px) {
+  .introducao-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .introducao-texto {
+    display: grid;
+    padding: 30px 15px;
+    grid-template-columns: 1fr;
+    border-radius: 8px 8px 0 0;
+  }
+  .introducao-texto h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .introducao-texto-h2 {
+    margin-bottom: 30px;
+    word-wrap: normal;
+    margin-right: 0px;
+  }
+  .introducao-texto p {
+    margin-right: 0;
+    word-wrap: normal;
+  }
+  .saiba-mais {
+    place-content: center;
+  }
+  .ms-logo {
+    display: none;
+  }
+  .background-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 8px 8px;
+  }
+}
+
+@media (max-width: 700px) {
+  .introducao-bg {
+    background-color: #862826;
+  }
+  .introducao-grid {
+    padding: 0px 0px;
+  }
+  .introducao-texto {
+    border: none;
+    border-radius: 0 0 0 0;
+  }
+  .introducao-texto h1 {
+    padding-bottom: 20px;
+    font-size: 1.25rem;
+  }
+  .introducao-texto-h2 {
+    margin-top: -20px;
+    gap: 0px;
+  }
+}

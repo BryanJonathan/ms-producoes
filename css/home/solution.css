@@ -1,0 +1,76 @@
+.section-solution-bg {
+  background: #f6f6f6 url('../../imgs/svgs/icons/UPPER-RIGHT.svg') no-repeat
+    right 160px top 60px;
+  /* display: inline-block; */
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 60px;
+  gap: 60px;
+  align-items: center;
+}
+
+.solution-grid img {
+  width: auto;
+  height: auto;
+  max-width: 700px;
+}
+
+.texto-solution {
+  max-width: 650px;
+}
+
+.texto-solution h3 {
+  color: #741e1b;
+  /* font-size: 1rem; */
+}
+
+.texto-solution p {
+  display: grid;
+  gap: 10px;
+  margin-top: 30px;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 1400px) {
+  .solution-grid img {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .section-solution-bg {
+    background: #f6f6f6 url('../../imgs/svgs/icons/UPPER-RIGHT.svg') no-repeat
+      right 60px top 60px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-solution-bg {
+    background: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .solution-grid {
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+    text-align: center;
+    place-items: center;
+    padding: 60px 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .solution-grid img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  .solution-grid img {
+    max-width: 300px;
+  }
+}

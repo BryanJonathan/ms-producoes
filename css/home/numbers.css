@@ -1,0 +1,42 @@
+.numbers {
+  display: flex;
+  place-content: space-evenly;
+  gap: 60px;
+  padding: 60px 120px;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+.numbers span {
+  font-size: 3rem;
+  color: #3b0a09;
+}
+
+.numbers span::after {
+  content: url('../../imgs/svgs/icons/SOMA-NUMEROS.svg');
+  margin-left: 10px;
+}
+
+.numbers p {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 1050px) {
+  .numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .numbers {
+    padding-bottom: 100px;
+    gap: 30px;
+  }
+  .numbers span {
+    font-size: 2rem;
+  }
+  .numbers span::after {
+    content: '+';
+  }
+}
