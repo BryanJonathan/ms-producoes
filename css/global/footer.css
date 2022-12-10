@@ -3,6 +3,7 @@
   padding: 30px 30px;
   color: #f6f6f6;
   display: flex;
+  gap: 20px;
 }
 
 .container-logo {
@@ -10,13 +11,19 @@
   place-self: center;
 }
 
+.container-logo img {
+  width: 100%;
+  /* height: 100%; */
+}
+
 .container-geral {
   box-sizing: border-box;
   display: flex;
-  gap: 200px;
+  gap: 80px;
   margin: auto auto;
   justify-self: end;
   place-content: space-evenly;
+  width: 80%;
 }
 
 .container-local {
@@ -71,12 +78,6 @@
   }
 }
 
-@media (max-width: 600px) {
-  .footer-media {
-    display: none;
-  }
-}
-
 @media (max-width: 430px) {
   .container-logo img {
     width: 200px;
@@ -88,5 +89,9 @@
     display: grid;
     box-sizing: border-box;
     text-align: center;
+  }
+  .footer-media {
+    display: flex;
+    gap: 30px;
   }
 }
