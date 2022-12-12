@@ -72,6 +72,7 @@
   }
   .depoimento-cliente-mobile {
     display: block;
+    border-radius: 8px;
   }
 }
 
