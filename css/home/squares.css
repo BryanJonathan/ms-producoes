@@ -1,6 +1,6 @@
 .squares-bg {
-  background-color: #2f0200;
-  color: #fff;
+  background-color: #3c0a09;
+  color: #ffffff;
   padding: 60px 40px;
 }
 
@@ -14,7 +14,7 @@
 
 .square {
   background-color: #f6f6f6;
-  color: #2f0200;
+  color: #000000;
   border-radius: 8px;
   min-width: 250px;
   min-height: 200px;
@@ -25,8 +25,13 @@
   text-align: left;
   margin-bottom: 40px;
 }
+
 .square p {
   font: 500 2rem 'Roboto', sans-serif;
+}
+
+.square:hover {
+  background-color: #4a4a4a;
 }
 
 @media (max-width: 1300px) {

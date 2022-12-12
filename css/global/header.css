@@ -17,7 +17,6 @@
 .header-links {
   display: flex;
   gap: 40px;
-  flex-wrap: wrap;
 }
 
 .header-links a {
@@ -49,9 +48,9 @@
     gap: 20px;
   }
   .header-links a {
-    place-content: center;
+    justify-self: center;
     background: #dbdbdb;
-    padding: 6px 12px;
+    padding: 4px 8px;
     border-radius: 8px;
   }
   .menu-services {
@@ -62,10 +61,12 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 470px) {
+  .header {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .header-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
+    gap: 10px;
   }
 }

@@ -15,32 +15,32 @@
   color: #e4e4e4;
   padding: 160px 60px;
   border-radius: 8px 0px 0px 8px;
-  /* border: 2px solid #000000; */
 }
 
 .introducao-texto h1 {
   color: #e4e4e4;
-  font-size: 2rem;
-  margin-bottom: 20px;
+  font-size: 2.25rem;
+  margin-bottom: 60px;
 }
 
 .introducao-texto-h2 {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   word-wrap: break-word;
   margin-right: 60px;
 }
 
 .introducao-texto p {
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   word-wrap: break-word;
-  margin-right: 90px;
+  margin-right: 120px;
 }
 
-.saiba-mais {
+.saiba-mais,
+.saiba-mais a {
   display: flex;
   gap: 10px;
-  align-items: center;
+  place-items: center;
 }
 
 .ms-logo {
