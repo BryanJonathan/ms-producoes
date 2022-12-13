@@ -1,5 +1,6 @@
 .client-bg {
   display: flex;
+  background-color: #f6f6f6;
   padding: 60px 60px;
   place-content: space-around;
 }

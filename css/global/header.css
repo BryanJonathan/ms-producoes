@@ -1,5 +1,15 @@
 .header-bg {
-  background-color: #f4f4f4;
+  background-color: #f6f6f6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  display: block;
+}
+
+.header-block {
+  width: 100%;
+  height: 120px;
 }
 
 .header {
@@ -40,6 +50,12 @@
   gap: 20px;
 }
 
+@media (max-width: 760px) {
+  .header-block {
+    height: 180px;
+  }
+}
+
 @media (max-width: 700px) {
   .header {
     place-content: center;
@@ -58,6 +74,15 @@
   }
   .header-links-social {
     display: none;
+  }
+  .header-block {
+    height: 125px;
+  }
+}
+
+@media (max-width: 580px) {
+  .header-block {
+    height: 160px;
   }
 }
 
