@@ -12,6 +12,7 @@
 
 .introducao-texto {
   background-color: #741e1b;
+  background: url('../../imgs/capture-remaster.png');
   color: #e4e4e4;
   padding: 160px 60px;
   border-radius: 8px 0px 0px 8px;
@@ -66,12 +67,14 @@
   .introducao-grid {
     grid-template-columns: 1fr;
     text-align: center;
+    padding: 40px 30px;
   }
   .introducao-texto {
     display: grid;
     padding: 30px 15px;
     grid-template-columns: 1fr;
     border-radius: 8px 8px 0 0;
+    min-height: 450px;
   }
   .introducao-texto h1 {
     text-align: center;
@@ -100,9 +103,6 @@
 }
 
 @media (max-width: 700px) {
-  .introducao-bg {
-    background-color: #862826;
-  }
   .introducao-grid {
     padding: 0px 0px;
   }
